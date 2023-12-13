@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loading-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+
+    
+    
+  }
+  
+  .spinner {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ccc;
+    border-top-color:blue;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 5px;
+   
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loading-text {
+    line-height: 20px;
+  }
+h1{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 40px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
